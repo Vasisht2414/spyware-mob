@@ -1,0 +1,19 @@
+Kivy: A Python framework for developing multitouch applications.
+Buildozer: A tool to package Python scripts into standalone Android apps
+
+codes for setting up buildozer
+
+setup:
+pip install buildozer
+sudo apt-get install -y python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools
+sudo apt-get install -y python3-venv
+sudo apt-get install -y cython
+sudo apt-get install -y git
+
+intialize:
+buildozer init
+
+package the application to apk
+buildozer -v android debug
+
+install the apk in your device
