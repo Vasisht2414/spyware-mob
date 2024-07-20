@@ -1,0 +1,5 @@
+pip install buildozer
+sudo apt-get install -y python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools
+sudo apt-get install -y python3-venv
+sudo apt-get install -y cython
+sudo apt-get install -y git
